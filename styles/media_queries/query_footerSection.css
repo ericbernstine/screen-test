@@ -83,6 +83,9 @@
     .sponsorSection{
         padding: none;
     }
+    .watermark{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 445px){
@@ -99,7 +102,13 @@
         width: 85%;
     }
     .homeAdvisor img{
-        width: 120px;
+        width: 110px;
+        height: 25px;
+    }
+    .irs img{
+        width: 105px;
+        height: 40px;
+        padding-bottom: 0px;
     }
     .enterBank img {
         width: 110px;
@@ -107,15 +116,13 @@
         margin-bottom: 13px;
     }
     .velux img {
-        width: 80px;
-        height: auto;
+        width: 110px;
+        height: 35px;
         margin-bottom: 6px;
     }
     
-    .blueBell img {
-        width: 115px;
-        height: auto;
-        margin-bottom: 6px;
+    .blueBell img{
+        margin-bottom: 12px;
     }
     .sponsorSection{
         padding: none;
