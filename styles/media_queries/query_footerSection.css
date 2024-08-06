@@ -50,7 +50,7 @@
     }
 }
 
-@media screen and (max-width: 520px){
+/* @media screen and (max-width: 520px){
     .sponsorContent{
         height: 120px;
         width: 120px;
@@ -86,7 +86,7 @@
     .watermark{
         text-align: center;
     }
-}
+} */
 
 @media screen and (max-width: 450px){
     body{
