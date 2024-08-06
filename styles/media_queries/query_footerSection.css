@@ -76,7 +76,7 @@
     }
     
     .blueBell img {
-        width: 115px;
+        width: 110px;
         height: auto;
         margin-bottom: 6px;
     }
@@ -88,7 +88,7 @@
     }
 }
 
-@media screen and (max-width: 445px){
+@media screen and (max-width: 450px){
     body{
         overflow-x: hidden;
     }
@@ -98,33 +98,36 @@
         font-size: 65%;
     }
     .sponsorText{
-        padding: 4px;
-        width: 85%;
+        height: 100px;
+        width: 100px;
+        background: none;
+        border: 3px solid rgba(56, 139, 217, 0.7);
+        padding: 0px;
+        border-radius: 50%;
     }
     .homeAdvisor img{
-        width: 110px;
-        height: 25px;
+       
     }
     .irs img{
-        width: 105px;
-        height: 40px;
-        padding-bottom: 0px;
+        
     }
     .enterBank img {
-        width: 110px;
-        height: auto;
-        margin-bottom: 13px;
+        
     }
     .velux img {
-        width: 110px;
-        height: 35px;
-        margin-bottom: 6px;
+        
     }
     
     .blueBell img{
-        margin-bottom: 12px;
+        
     }
     .sponsorSection{
         padding: none;
+    }
+    .velux{
+        margin-left: 30px;
+    }
+    .blueBell{
+        margin-right: 30px;
     }
 }
