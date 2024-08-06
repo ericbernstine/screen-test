@@ -14,15 +14,13 @@
     .sponsorSection{
         display: none;
     }
+    .sponsorContent {
+        height: 150px;
+        width: 150px;
+        font-size: 88%;
+    }
     .sponsorImages{
         display: none;
-    }
-    .sponsorContent {
-        background: #f7f7f5;
-        border-radius: 50%;
-        height: 150px;
-        width: 160px;
-        font-size: 88%;
     }
     .sponsorText{
         width: 92%;
@@ -31,6 +29,9 @@
     .sponsorQuery{
         display: block;
         width: 100%;
+    }
+    .sponsorQuery img{
+        margin-right: 15px;
     }
     .top{
         display: flex;
@@ -53,34 +54,24 @@
         justify-content: space-around;
         align-items: center;
     }
-    .topImages img{
-        width: 150px;
-        height: auto;
-    }
     .bottomImages{
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
-    .bottomImages img{
-        width: 150px;
+    .topImages img, .bottomImages img{
+        width: 100px;
         height: auto;
     }
-    .bottom_velux{
-        margin-left: 80px;
-    }
-    .bottom_velux img{
-        width: 110px;
-    }
     .bottom_smallLogo{
-        margin-right: 70px;
+        margin-right: 75px;
+    }
+    .bottom_velux{
+        margin-left: 70px;
     }
 }
 
-@media screen and (max-width: 520px){
-    body{
-        overflow-x: hidden;
-    }
+@media screen and (max-width: 580px){
     .sponsorContent{
         height: 100px;
         width: 100px;
@@ -92,26 +83,11 @@
         background: none;
         border: 3px solid rgba(56, 139, 217, 0.7);
         padding: 0px;
-        border-radius: 50%;
+        border-radius: 40%;
     }
-    .homeAdvisor img{
-       display: none;
-    }
-    .irs img{
-        display: none;
-    }
-    .enterBank img {
-        display: none;
-    }
-    .velux img {
-        display: none;
-    }
-    
-    .blueBell img{
-        display: none;
-    }
-    .sponsorSection{
-        padding: none;
+    .topImages img, .bottomImages img{
+        width: 80px;
+        height: auto;
     }
     .velux{
         margin-left: 30px;
@@ -119,34 +95,21 @@
     .blueBell{
         margin-right: 30px;
     }
-    .topImages{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .topImages img{
-        width: 90px;
-        height: auto;
-    }
-    .bottomImages{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .bottomImages img{
-        width: 90px;
-        height: auto;
-    }
-    .bottom_velux{
-        margin-left: 30px;
-    }
-    .bottom_velux img{
-        width: 80px;
+    .sponsorSection{
+        padding: none;
     }
     .bottom_smallLogo{
-        margin-right: 30px;
+        margin-right: 27px;
+    }
+    .bottom_velux{
+        margin-left: 45px;
+    }
+    .bottom_velux img{
+        width: 70px;
     }
     .watermark{
         text-align: center;
     }
 }
+
+
