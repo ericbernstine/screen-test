@@ -1,5 +1,5 @@
 /* CUSTOMER REVIEWS */
-/* @media screen and (max-width:700px){
+@media screen and (max-width:700px){
     .testimonialSection{
         display: flex;
         justify-content: center;
@@ -130,4 +130,4 @@
     .blueBell{
         margin-right: 30px;
     }
-} */
+}
