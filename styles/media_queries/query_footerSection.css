@@ -14,6 +14,9 @@
     .sponsorSection{
         display: none;
     }
+    .sponsorImages{
+        display: none;
+    }
     .sponsorContent {
         background: #f7f7f5;
         border-radius: 50%;
@@ -28,9 +31,6 @@
     .sponsorQuery{
         display: block;
         width: 100%;
-    }
-    .sponsorQuery img{
-        margin-right: 15px;
     }
     .top{
         display: flex;
@@ -48,47 +48,36 @@
     .blueBell{
         margin-right: 70px;
     }
+    .topImages{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .topImages img{
+        width: 150px;
+        height: auto;
+    }
+    .bottomImages{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .bottomImages img{
+        width: 150px;
+        height: auto;
+    }
+    .bottom_velux{
+        margin-left: 80px;
+    }
+    .bottom_velux img{
+        width: 110px;
+    }
+    .bottom_smallLogo{
+        margin-right: 70px;
+    }
 }
 
 @media screen and (max-width: 520px){
-    .sponsorContent{
-        height: 120px;
-        width: 120px;
-        font-size: 70%;
-    }
-    .sponsorText{
-        padding: 4px;
-        width: 85%;
-        filter: none;
-    }
-    .homeAdvisor img{
-        width: 120px;
-    }
-    .enterBank img {
-        width: 110px;
-        height: auto;
-        margin-bottom: 13px;
-    }
-    .velux img {
-        width: 80px;
-        height: auto;
-        margin-bottom: 6px;
-    }
-    
-    .blueBell img {
-        width: 110px;
-        height: auto;
-        margin-bottom: 6px;
-    }
-    .sponsorSection{
-        padding: none;
-    }
-    .watermark{
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 450px){
     body{
         overflow-x: hidden;
     }
@@ -106,20 +95,20 @@
         border-radius: 50%;
     }
     .homeAdvisor img{
-       
+       display: none;
     }
     .irs img{
-        
+        display: none;
     }
     .enterBank img {
-        
+        display: none;
     }
     .velux img {
-        
+        display: none;
     }
     
     .blueBell img{
-        
+        display: none;
     }
     .sponsorSection{
         padding: none;
@@ -129,5 +118,35 @@
     }
     .blueBell{
         margin-right: 30px;
+    }
+    .topImages{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .topImages img{
+        width: 90px;
+        height: auto;
+    }
+    .bottomImages{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .bottomImages img{
+        width: 90px;
+        height: auto;
+    }
+    .bottom_velux{
+        margin-left: 30px;
+    }
+    .bottom_velux img{
+        width: 80px;
+    }
+    .bottom_smallLogo{
+        margin-right: 30px;
+    }
+    .watermark{
+        text-align: center;
     }
 }

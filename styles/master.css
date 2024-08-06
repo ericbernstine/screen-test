@@ -428,12 +428,21 @@
     display: none;
 }
 .sponsorSection {
-    height: 320px;
+    height: 250px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
+}
+.sponsorImages{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sponsorImages img{
+    width: 150px;
+    height: auto;
 }
 
 .sponsorSectionSecondary {
@@ -454,36 +463,10 @@
     flex: 1 1 calc(20% - 20px);
     max-width: calc(20% - 20px);
 }
-
-.irs img {
-    width: 75px;
-    height: auto;
-    margin-bottom: 6px;
+.smallLogo{
+    margin-right: 15px;
 }
 
-.homeAdvisor img {
-    width: 160px;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.enterBank img {
-    width: 130px;
-    height: auto;
-    margin-bottom: 13px;
-}
-
-.velux img {
-    width: 90px;
-    height: auto;
-    margin-bottom: 6px;
-}
-
-.blueBell img {
-    width: 135px;
-    height: auto;
-    margin-bottom: 6px;
-}
 
 .sponsorText {
     position: relative;
@@ -525,10 +508,9 @@
     color: #0481c3;
 }
 
-.waterMark {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
+.watermark {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 90%;
 }
 
