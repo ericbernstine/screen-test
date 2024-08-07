@@ -227,14 +227,14 @@
         font-size: 50% !important;
     }
     .estimateLogo {
-        width: 60px !important;
+        width: 75px !important;
         height: auto !important;
         margin-top: 15px !important;
     }
     .estimateHeading {
-        font-size: 85% !important;
+        font-size: 88% !important;
         position: relative !important;
-        bottom: 20px !important;
+        bottom: 15px !important;
     }
     .inner_estiamteForm p{
         font-size: 50% !important;
