@@ -308,7 +308,9 @@
     animation: animate 1s ease-in-out 1.2s 1 forwards;
 }
 
-.content .btn button {
+.content .btn a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Ensure it inherits the color */
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -317,22 +319,43 @@
     border-radius: 5px;
 }
 
-.content .btn button:nth-child(1) {
+.content .btn a:nth-child(1) {
     margin-right: 15px;
+    background-color: rgba(4, 129, 195, 0.2);
+    color: #fff; 
+    border: 2px solid #0481c3; /* Border same as text color */
+    transition: 0.3s; /* Smooth transition */
 }
 
-.content .btn button:nth-child(2) {
-    background: transparent;
-    color: #0481c3;
-    border: 2px solid #fff;
-    transition: 0.3s;
+.content .btn a:nth-child(1):hover {
+    background-color: #0481c3; /* Solid blue */
+    color: #fff; /* White text */
+    border-color: #0481c3; /* Keep the same border color */
 }
 
-.content .btn button:nth-child(2):hover {
-    background-color: #0481c3;
-    color: #fff;
-    border-color: #0481c3;
+.content .btn a:nth-child(2) {
+    background-color: #0481c3; /* Always blue */
+    color: #fff; /* White text */
+    border: 2px solid #0481c3; /* Border same as background */
+    transition: 0.3s; /* Smooth transition */
 }
+
+.content .btn a:nth-child(2):hover {
+    background-color: #045480;
+    border-color: #0481c3; 
+}
+.content .btn button{
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+    text-align: left; /* Optional, aligns text to the left */
+}
+
 
 @keyframes animate {
     from {
