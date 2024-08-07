@@ -9,6 +9,22 @@
     height: 100vh; 
 }
 
+.active {
+    display: none;
+}
+
+.inactive {
+    display: block;
+}
+
+.burger.open .inactive {
+    display: none;
+}
+
+.burger.open .active {
+    display: block;
+}
+
 .estimateBlock {
     position: absolute; /* Position the estimateBlock absolutely within #innerHeading */
     top: 50%; /* Center vertically */

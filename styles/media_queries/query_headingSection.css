@@ -1,11 +1,21 @@
 .burger{
    display: none;
 }
-.burger div{
+.burger .line{
     width: 27px;
     height: 3px;
-    background-color: rgb(86, 86, 86);
+    background-color: #565656;
     margin-bottom: 3px;
+}
+.burger .arrow{
+    text-align: center;
+    width: 27px;
+    padding: 0;
+    margin: 0;
+    color: #565656;
+}
+.burger svg{
+    opacity: 0.8;
 }
 @media screen and (max-width: 1240px){
     .headingSection{
@@ -14,7 +24,7 @@
     .burger{
         display: block;
         position: fixed;
-        top: 8%;
+        top: 5%;
         right: 5%;
         background-color: rgba(225, 225, 225, 0.7); /* 70% opacity black background */
         padding: 12px;
@@ -26,7 +36,7 @@
         position: absolute;
         right: -50%;
         height: 50vh;
-        top: 8vh;
+        top: 9vh;
         background-color: rgba(225, 225, 225, 0.7); /* 70% opacity black background */
         width: 100%;
         display: flex;
@@ -36,6 +46,7 @@
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
+
 
 }
 

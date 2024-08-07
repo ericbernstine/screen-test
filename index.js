@@ -89,3 +89,9 @@ function scrollShop(){
 function scrollReviews(){
     document.getElementById('testimonialSponsorSection').scrollIntoView({ behavior: 'smooth' });
 }
+
+
+function changeActive() {
+    let burger = document.getElementById('burger');
+    burger.classList.toggle('open');
+}
