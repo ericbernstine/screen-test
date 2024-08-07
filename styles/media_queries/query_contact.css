@@ -5,7 +5,7 @@
 }
 @media screen and (max-width: 1000px) {
     .sponsorSectionSecondary {
-        display: none !important;
+        display: none;
     }
 }
 
@@ -83,11 +83,6 @@
         margin-top: 35px !important;
     }
 
-    .estimateHeading {
-        padding-left: 15px;
-        grid-row: 1 / 1;
-        grid-column: 2 / 3;
-    }
 
     .headingNote {
         padding-top: 10px !important;
@@ -160,6 +155,19 @@
         grid-row: 8 / 9 !important;
         margin-left: 10px !important;
     }
+    .estimateLogo {
+        width: 80px !important;
+        height: auto !important;
+        margin-top: 15px !important;
+    }
+
+    .estimateHeading {
+        font-size: 90% !important;
+        position: relative !important;
+        bottom: 15px !important;
+    }
+
+
     
 }
 
@@ -217,5 +225,21 @@
     }
     .contactInfo a {
         font-size: 50% !important;
+    }
+    .estimateLogo {
+        width: 60px !important;
+        height: auto !important;
+        margin-top: 15px !important;
+    }
+    .estimateHeading {
+        font-size: 85% !important;
+        position: relative !important;
+        bottom: 20px !important;
+    }
+    .inner_estiamteForm p{
+        font-size: 50% !important;
+    }
+    .inner_estiamteForm button{
+        transform: scale(0.8) !important;
     }
 }

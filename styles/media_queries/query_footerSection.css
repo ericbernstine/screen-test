@@ -12,10 +12,10 @@
 
 @media screen and (max-width: 1000px){
     .sponsorSection{
-        display: none;
+        display: none !important;
     }
     .sponsorSectionSecondary{
-        display: none;
+        display: none !important;
     }
     .sponsorContent {
         height: 150px;
