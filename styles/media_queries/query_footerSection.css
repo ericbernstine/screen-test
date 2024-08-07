@@ -23,14 +23,14 @@
         font-size: 88%;
     }
     .sponsorImages{
-        display: none;
+        display: none !important;
     }
     .sponsorText{
         width: 92%;
         padding: 5px;
     }
     .sponsorQuery{
-        display: block;
+        display: block !important;
         width: 100%;
     }
     .sponsorQuery img{
@@ -63,8 +63,8 @@
         align-items: center;
     }
     .topImages img, .bottomImages img{
-        width: 100px;
-        height: auto;
+        width: 100px !important;
+        height: auto !important;
     }
     .bottom_smallLogo{
         margin-right: 75px;
@@ -82,23 +82,24 @@
         font-size: 65%;
     }
     .sponsorText{
-        height: 100px;
-        width: 100px;
-        background: none;
-        border: 3px solid rgba(56, 139, 217, 0.7);
-        padding: 0px;
-        border-radius: 40%;
-        filter: none;
+        height: 100px !important;
+        width: 100px !important;
+        background: none !important;
+        border: 3px solid rgba(56, 139, 217, 0.7) !important;
+        padding: 0px !important;
+        border-radius: 40% !important;
+        filter: none !important;
     }
     .topImages img, .bottomImages img{
-        width: 80px;
-        height: auto;
+        width: 80px !important;
+        height: auto !important;
     }
     .velux{
         margin-left: 30px;
     }
     .blueBell{
-        margin-right: 30px;
+        position: relative;
+        left: 30px
     }
     .sponsorSection{
         padding: none;
@@ -107,23 +108,23 @@
         margin-right: 22px;
     }
     .bottom_velux{
-        margin-left: 40px;
+        position: relative;
+        right: 25px;
     }
     .bottom_velux img{
         width: 70px;
     }
     .homeadvisor{
-        margin-left: 10px;
+        position: relative !important;
+        left: 5px !important;
     }
     .enterbank{
-        margin-left: 10px;
-    }
-    .irs{
-        margin-left: 20px;
+        position: relative !important;
+        left: 10px !important;
     }
     .irs img{
         width: 70px;
-    }
+    } 
     .watermark{
         text-align: center;
     }

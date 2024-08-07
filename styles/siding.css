@@ -160,11 +160,21 @@
     background-color:rgba(199, 199, 199, 0.5);
     border-radius: 5px;
 }
+.disclaimer_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    width: 100%;
+}
 .disclaimer{
     background-color: #eee;
     text-align: center;
-    height: 20px;
-    width: 100%;
+    width: 40%;
+    margin-bottom: 15px;
+}
+.sponsorImages{
+    background-color: #eee !important;
 }
 
 
