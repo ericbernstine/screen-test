@@ -35,7 +35,13 @@
     .content .btn{
         display: flex;
         flex-direction: column;
-        gap: 10px
+        gap: 10px;
+    }
+    .content .btn a{
+        text-align: center;
+        width: 100px;
+        height: auto;
+        right: 35%;
     }
 }
 
@@ -65,10 +71,9 @@
     }
 
     .content .btn a {
-        padding: 5px 10px;
         text-align: center;
         font-size: 14px;
-        width: 80px;
+        width: 100px;
         height: auto;
         right: 35%
     }

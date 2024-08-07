@@ -1,19 +1,13 @@
 .burger{
    display: none;
 }
-.burger .line{
+.burger div{
     width: 27px;
     height: 3px;
     background-color: #565656;
     margin-bottom: 3px;
 }
-.burger .arrow{
-    text-align: center;
-    width: 27px;
-    padding: 0;
-    margin: 0;
-    color: #565656;
-}
+
 .burger svg{
     opacity: 0.8;
 }

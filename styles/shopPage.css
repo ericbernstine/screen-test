@@ -87,6 +87,7 @@
     border-bottom-right-radius: 5px;
 }
 .sponsorImages{
+    padding-top: 10px !important;
     background-color: #dddddd !important;
 }
 .sponsorSectionSecondary{

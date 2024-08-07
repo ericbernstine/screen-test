@@ -358,11 +358,13 @@ img.displaySlide{
     color: #0481c3;
 }
 .sponsorImages{
+    padding-top: 10px !important;
     background-color: #dddddd !important;
 }
 .sponsorSectionSecondary{
     background-color: #dddddd !important;
 }
 .sponsorQuery{
+    margin-top: 10px !important;
     background-color: #dddddd !important;
 }
