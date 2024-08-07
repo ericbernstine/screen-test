@@ -83,6 +83,17 @@
     background-color: #ededed;
     width: 85%;
     height: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.sponsorImages{
+    background-color: #dddddd !important;
+}
+.sponsorSectionSecondary{
+    background-color: #dddddd !important;
+}
+.sponsorQuery{
+    background-color: #dddddd !important;
 }
 
 .descriptionBlock{
