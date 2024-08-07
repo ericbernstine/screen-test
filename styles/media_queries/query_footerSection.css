@@ -14,6 +14,9 @@
     .sponsorSection{
         display: none;
     }
+    .sponsorSectionSecondary{
+        display: none;
+    }
     .sponsorContent {
         height: 150px;
         width: 150px;
@@ -69,6 +72,7 @@
     .bottom_velux{
         margin-left: 70px;
     }
+
 }
 
 @media screen and (max-width: 580px){
@@ -103,9 +107,21 @@
         margin-right: 22px;
     }
     .bottom_velux{
-        margin-left: 45px;
+        margin-left: 40px;
     }
     .bottom_velux img{
+        width: 70px;
+    }
+    .homeadvisor{
+        margin-left: 10px;
+    }
+    .enterbank{
+        margin-left: 10px;
+    }
+    .irs{
+        margin-left: 20px;
+    }
+    .irs img{
         width: 70px;
     }
     .watermark{

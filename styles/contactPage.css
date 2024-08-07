@@ -93,11 +93,19 @@
 .locations{
     margin-top: 10px;
 }
+.query_locations{
+    display: none;
+    grid-column: 1 / 9;
+    grid-row: 8 / 9;
+}
 .locations h5{
     font-weight: 450;
 }
 .locations p {
     font-size: 82%;
+    padding: 0;
+    padding-top: 2px;
+    margin: 0;
 }
 .ourPhone{
     grid-column: 3 / 3;
