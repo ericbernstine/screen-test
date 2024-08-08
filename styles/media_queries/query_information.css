@@ -61,4 +61,9 @@
         width: 95% !important;
         font-size: 75% !important;
     }
+    .number{
+        position: relative !important;
+        bottom: 150px !important;
+        left: 70px !important;
+    }
 }
