@@ -21,6 +21,7 @@
     }
     .mainBlock{
         overflow-y: hidden !important;
+        padding-bottom: 80px !important;
     }
     .imgslot img{
         display: none !important;
@@ -35,7 +36,7 @@
     }
     .footQuote{
         width: 95% !important;
-        font-size: 90% !important;
+        font-size: 80% !important;
     }
     .number{
         margin-bottom: 10px;
@@ -55,5 +56,9 @@
     }
     .descriptionBlock a{
         transform: scale(0.8);
+    }
+    .footQuote{
+        width: 95% !important;
+        font-size: 75% !important;
     }
 }
