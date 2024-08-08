@@ -1,6 +1,7 @@
 @media screen and (max-width:900px){
     .mainBlock{
         width: 95% !important;
+        height: 89% !important;
     }
     /* .imgslot{
         grid-column: 5 / 9;
@@ -21,7 +22,6 @@
     }
     .mainBlock{
         overflow-y: hidden !important;
-        padding-bottom: 80px !important;
     }
     .imgslot img{
         display: none !important;
