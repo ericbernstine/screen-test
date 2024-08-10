@@ -147,15 +147,13 @@
     .descriptionBlock {
         display: flex !important;
         flex-direction: column !important;
+        height: fit-content !important;
 
     }
     .descriptionContent{
         height: 100% !important;
     }
-    .descriptionBlockAlpha {
-        display: flex;
-        flex-direction: column !important;
-    }
+
 
     .descPricing {
         order: 1 !important;
