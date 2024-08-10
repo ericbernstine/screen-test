@@ -149,7 +149,9 @@
         flex-direction: column !important;
 
     }
-
+    .descriptionContent{
+        height: 100% !important;
+    }
     .descriptionBlockAlpha {
         display: flex;
         flex-direction: column !important;
