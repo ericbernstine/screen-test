@@ -49,7 +49,7 @@
         margin-bottom: 10px;
     }
     .collapse div{
-        max-height: 150px !important;
+        max-height: 200px !important;
         overflow-y: scroll !important;
     }
 }

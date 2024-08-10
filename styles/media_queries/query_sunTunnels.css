@@ -1,0 +1,65 @@
+
+/* Shop Block Section */
+@media screen and (max-width: 1250px) {
+    .shopBlock .description{
+        height: 110px !important;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .shopBlock .imgWrap{
+        padding: 10px !important;
+    }
+    .mainBlock{
+        gap: 1px 100px !important;
+        align-items: flex-start !important;
+    }
+    .shopBlock{
+       margin-top: 40px !important;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .mainBlock{
+        gap: 1px 70px !important;
+    }
+}
+@media screen and (max-width:700px){
+    .flexible img, .rigid img{
+        height: 300px !important;
+        width: auto !important;
+    }
+    .mainBlock{
+        gap: 1px 75px !important;
+    }
+    .shopBlock h3{
+        font-size: 95% !important;
+    }
+    .shopBlock .description{
+        height: 135px !important;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width: 580px){
+    .mainBlock{
+        gap: 1px 5px !important;
+    }
+    .flexible img, .rigid img{
+        height: 220px !important;
+        width: auto !important;
+    }
+    .shopBlock h3{
+        font-size: 80% !important;
+    }
+    .shopBlock .description{
+        height: 180px !important;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width: 390px){
+    .flexible img, .rigid img{
+        height: 200px !important;
+        width: auto !important;
+    }
+}

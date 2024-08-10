@@ -62,8 +62,8 @@
         font-size: 70px;
     }
     .logo{
-        width: 10.3125rem;
-        height: 7.03125rem;
+        width: 140px !important;
+        height: auto !important;
     }
 }
 
