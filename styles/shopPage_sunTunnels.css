@@ -82,6 +82,7 @@
     background-color: #dddddd;
     width: 100%;
     height: 100%;
+    padding: 0;
 }
 
 .descriptionContent{
@@ -94,14 +95,7 @@
 
 .descriptionBlock{
     padding-top:10px ;
-    padding-bottom: 10px;
-    display: grid;
-    grid-template-columns: repeat(7, auto);
-    grid-template-rows: repeat(7, auto);
-}
-.descriptionBlockAlpha{
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     display: grid;
     grid-template-columns: repeat(7, auto);
     grid-template-rows: repeat(7, auto);

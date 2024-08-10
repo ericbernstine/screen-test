@@ -1,65 +1,219 @@
-
 /* Shop Block Section */
 @media screen and (max-width: 1250px) {
-    .shopBlock .description{
+    .shopBlock .description {
         height: 110px !important;
         padding-bottom: 10px;
     }
 }
 
-@media screen and (max-width:1000px){
-    .shopBlock .imgWrap{
+@media screen and (max-width:1000px) {
+    .shopBlock .imgWrap {
         padding: 10px !important;
     }
-    .mainBlock{
+
+    .mainBlock {
         gap: 1px 100px !important;
         align-items: flex-start !important;
     }
-    .shopBlock{
-       margin-top: 40px !important;
+
+    .descPricing img {
+        width: 270px !important;
+        height: auto !important;
+    }
+
+    .descriptionContent {
+        width: 90% !important;
+    }
+    body{
+        background-color: #dddddd;
+
     }
 }
 
-@media screen and (max-width: 800px){
-    .mainBlock{
+@media screen and (max-width: 800px) {
+    .mainBlock {
         gap: 1px 70px !important;
+        width: 95% !important;
     }
 }
-@media screen and (max-width:700px){
-    .flexible img, .rigid img{
+
+@media screen and (max-width:700px) {
+
+    .flexible img,
+    .rigid img {
         height: 300px !important;
         width: auto !important;
     }
-    .mainBlock{
+
+    .mainBlock {
         gap: 1px 75px !important;
     }
-    .shopBlock h3{
+
+    .shopBlock h3 {
         font-size: 95% !important;
     }
-    .shopBlock .description{
+
+    .shopBlock .description {
         height: 135px !important;
         padding-bottom: 10px;
     }
 }
-@media screen and (max-width: 580px){
-    .mainBlock{
-        gap: 1px 5px !important;
+
+@media screen and (max-width: 580px) {
+    .mainBlock {
+        gap: 1px 25px !important;
     }
-    .flexible img, .rigid img{
+
+    .flexible img,
+    .rigid img {
         height: 220px !important;
         width: auto !important;
     }
-    .shopBlock h3{
+
+    .shopBlock h3 {
         font-size: 80% !important;
+        margin-top: 10px !important;
     }
-    .shopBlock .description{
+
+    .shopBlock .description {
         height: 180px !important;
         padding-bottom: 10px;
     }
 }
-@media screen and (max-width: 390px){
-    .flexible img, .rigid img{
+
+@media screen and (max-width: 390px) {
+
+    .flexible img,
+    .rigid img {
         height: 200px !important;
         width: auto !important;
+    }
+
+    .shopBlock h3 {
+        margin-top: 10px !important;
+    }
+}
+
+/* Description Section */
+@media screen and (max-width: 1380px) {
+    .descPricing img {
+        width: 350px;
+        height: auto;
+    }
+
+    .descPricing {
+        grid-column: 1 / 7 !important;
+    }
+
+    .descInfo {
+        grid-row: 4 / 4;
+        grid-column: 1 / 7 !important;
+        margin-right: 5px;
+    }
+
+    .innerdescriptionBlock {
+        padding-left: 60px !important;
+        grid-column: 2 / 7 !important;
+    }
+
+    .descButton {
+        grid-column: 1 / 7 !important;
+    }
+
+    .descWarranty {
+        grid-column: 1 / 7 !important;
+    }
+
+    .descSpecs {
+        grid-column: 1 / 7 !important;
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .slides {
+        height: 220px !important;
+        width: 320px !important;
+    }
+
+    .innerdescriptionBlock {
+        padding-left: 25px !important;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    .descriptionBlock {
+        display: flex !important;
+        flex-direction: column !important;
+
+    }
+
+    .descriptionBlockAlpha {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .descPricing {
+        order: 1 !important;
+    }
+
+    .carouselNav {
+        order: 0 !important;
+    }
+
+    .innerdescriptionBlock {
+        order: 2 !important;
+        margin-left: 20px;
+    }
+
+    .descPricing img {
+        width: 350px !important;
+        height: auto !important;
+    }
+
+    .descInfo p {
+        width: 90%;
+        font-size: 90% !important;
+    }
+
+    .prev {
+        left: 20px !important;
+    }
+
+    .next {
+        right: 20px !important;
+    }
+    .slides {
+        height: 320px !important;
+        width: 420px !important;
+    }
+}
+
+@media screen and (max-width:500px){
+    .slides {
+        height: 260px !important;
+        width: 360px !important;
+    }
+    .descPricing img {
+        width: 280px !important;
+        height: auto !important;
+    }
+    .descInfo p {
+        font-size: 85% !important;
+    }
+    .prev {
+        left: 0px !important;
+    }
+
+    .next {
+        right: 0px !important;
+    }
+}
+@media screen and (max-width:400px){
+    .descPricing img {
+        width: 200px !important;
+        height: auto !important;
     }
 }
