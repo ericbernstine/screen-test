@@ -147,7 +147,7 @@
     .descriptionBlock {
         display: flex !important;
         flex-direction: column !important;
-        height: fit-content !important;
+        height: auto !important;
 
     }
     .descriptionContent{
@@ -186,8 +186,16 @@
         right: 20px !important;
     }
     .slides {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-height: 100%; 
+        max-width: 100%; 
         height: 320px !important;
         width: 420px !important;
+    }
+    .slides img{
+        height: auto !important;
     }
 }
 
