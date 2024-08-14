@@ -96,6 +96,9 @@
 
 /* Description Section */
 @media screen and (max-width: 1380px) {
+    .descriptionContent{
+        height: auto;
+    }
     .descriptionBlock {
         display: flex !important;
         flex-direction: column !important;
@@ -107,8 +110,8 @@
     }
     .carouselIndicator{
         border-radius: 25% !important;
-        width: 18px !important;
-        height: 18px !important;
+        width: 35px !important;
+        height: 35px !important;
         background: rgba(0, 0, 0, 0.4);
         margin: 0 10px;
     }
