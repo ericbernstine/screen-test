@@ -132,14 +132,7 @@
 }
 
 @media screen and (max-width:820px) {
-    .slides {
-        height: 220px !important;
-        width: 320px !important;
-    }
-
-    .innerdescriptionBlock {
-        padding-left: 25px !important;
-    }
+    
 }
 
 
