@@ -103,12 +103,12 @@
     }
     .innerdescriptionBlock{
         padding-left: 15px !important;
-        margin-bottom: 15px;
+        margin-bottom: 55px;
     }
     .carouselIndicator{
-        border-radius: 50% !important;
-        width: 12px !important;
-        height: 12px !important;
+        border-radius: 25% !important;
+        width: 18px !important;
+        height: 18px !important;
         background: rgba(0, 0, 0, 0.4);
         margin: 0 10px;
     }
