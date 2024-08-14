@@ -16,11 +16,6 @@
         align-items: flex-start !important;
     }
 
-    .descPricing img {
-        width: 270px !important;
-        height: auto !important;
-    }
-
     .descriptionContent {
         width: 90% !important;
     }
@@ -95,7 +90,13 @@
 }
 
 /* Description Section */
-@media screen and (max-width: 1380px) {
+@media screen and (max-width: 1350px){
+    .descPricing img {
+        width: 290px !important;
+        height: auto !important;
+    }
+}
+@media screen and (max-width: 1050px) {
     .descriptionContent{
         height: auto;
     }
@@ -107,11 +108,12 @@
     .innerdescriptionBlock{
         padding-left: 15px !important;
         margin-bottom: 55px;
+        order: 2;
     }
     .carouselIndicator{
         border-radius: 50% !important;
-        width: 35px !important;
-        height: 35px !important;
+        width: 20px !important;
+        height: 20px !important;
         background: rgba(0, 0, 0, 0.4);
         margin: 0 10px;
     }
@@ -119,11 +121,17 @@
         font-size:  2rem !important;
         margin: 0 !important;
     }
+    .descCarousel{
+        order: 0;
+    }
+    .carouselNav{
+        order: 1;
+    }
 }
 
 @media screen and (max-width: 550px){
     .descCarousel button{
-        font-size:  1rem !important;
+        font-size:  1.5rem !important;
         margin: 0 !important;
     }
 }
