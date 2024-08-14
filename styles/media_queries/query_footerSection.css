@@ -17,6 +17,9 @@
     .sponsorSectionSecondary{
         display: none !important;
     }
+    .top_watermark{
+        display: none !important;
+    }
     .sponsorContent {
         height: 150px;
         width: 150px;
@@ -46,12 +49,6 @@
         justify-content: space-around;
         align-items: center;
     }
-    .velux{
-        margin-left: 70px;
-    }
-    .blueBell{
-        margin-right: 70px;
-    }
     .topImages{
         display: flex;
         justify-content: space-around;
@@ -66,13 +63,6 @@
         width: 100px !important;
         height: auto !important;
     }
-    .bottom_smallLogo{
-        margin-right: 75px;
-    }
-    .bottom_velux{
-        margin-left: 70px;
-    }
-
 }
 
 @media screen and (max-width: 580px){
@@ -93,37 +83,10 @@
         width: 80px !important;
         height: auto !important;
     }
-    .velux{
-        margin-left: 30px;
-    }
-    .blueBell{
-        position: relative;
-        left: 30px
-    }
     .sponsorSection{
         padding: none;
     }
-    .bottom_smallLogo{
-        margin-right: 22px;
-    }
-    .bottom_velux{
-        position: relative;
-        right: 25px;
-    }
-    .bottom_velux img{
-        width: 70px;
-    }
-    .homeadvisor{
-        position: relative !important;
-        left: 5px !important;
-    }
-    .enterbank{
-        position: relative !important;
-        left: 10px !important;
-    }
-    .irs img{
-        width: 70px;
-    } 
+
     .watermark{
         text-align: center;
     }
