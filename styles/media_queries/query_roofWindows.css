@@ -1,13 +1,15 @@
-@media screen and (max-width: 1050px){
-    .mainBlock{
+@media screen and (max-width: 1050px) {
+    .mainBlock {
         width: 98% !important;
         height: 88% !important;
     }
-    .descriptionBlockAlpha{
+
+    .descriptionBlockAlpha {
         display: flex !important;
         flex-direction: column !important;
     }
-    .innerdescriptionBlock{
+
+    .innerdescriptionBlock {
         grid-row: 1 / 7 !important;
         grid-column: 1 / 7 !important;
         padding-left: 25px !important;
@@ -15,7 +17,8 @@
         padding: 0 !important;
         order: 2;
     }
-    .descPricing{
+
+    .descPricing {
         grid-column: 1 / 7 !important;
         margin-top: 4px;
         margin-bottom: 0px !important;
@@ -26,86 +29,112 @@
         align-items: center;
         justify-content: left;
     }
-    .descButton{
+
+    .descButton {
         grid-column: 1 / 7 !important;
         margin: 0 !important;
         padding: 0 !important;
     }
-    .descInfo{
+
+    .descInfo {
         grid-column: 1 / 7 !important;
         margin: 0 !important;
         padding: 0 !important;
     }
-    .descWarranty{
+
+    .descWarranty {
         display: none !important;
         margin: 0 !important;
         padding: 0 !important;
     }
-    .descSpecs{
+
+    .descSpecs {
         display: none !important;
         margin: 0 !important;
         padding: 0 !important;
     }
-    .querySpecs{
-        display: block !important; 
+
+    .querySpecs {
+        display: block !important;
         margin: 0 !important;
         padding: 0 !important;
     }
-    .descCarousel{
+
+    .descCarousel {
         order: 0;
     }
-    .carouselNav{
+
+    .carouselNav {
         order: 1;
         margin-bottom: 5px;
     }
-    .descriptionBlockAlpha h4{
+
+    .descriptionBlockAlpha h4 {
         text-align: center;
     }
-    .descriptionBlockAlpha .footnote{
+
+    .descriptionBlockAlpha .footnote {
         text-align: center;
     }
-    .footnote{
-        margin-top: 4px !important; 
+
+    .footnote {
+        margin-top: 4px !important;
     }
-    .web_pricing{
+
+    .web_pricing {
         display: none;
     }
-    .descPricing img:nth-child(1){
+
+    .descPricing img:nth-child(1) {
         display: none !important;
     }
-    .descPricing img:nth-child(2){
+
+    .descPricing img:nth-child(2) {
         display: block !important;
     }
 }
 
-@media screen and (max-width:450px){
-    .descPricing{
+@media screen and (max-width:550px) {
+    div {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+
+    .descPricing {
         justify-content: center !important;
     }
-    .descPricing img{
+
+    .descPricing img {
         width: 250px !important;
         height: auto !important;
     }
-    .descInfo{
+
+    .descInfo {
         display: flex !important;
         align-items: center;
         justify-content: center;
     }
-    .descInfo p{
+
+    .descInfo p {
         width: 95%;
         font-size: 95% !important;
     }
+
     .slides {
-        height: 150px !important; /* Set a fixed height for the slider */
+        height: 150px !important;
+        /* Set a fixed height for the slider */
         width: 250px !important;
     }
-    .descButton button{
+
+    .descButton button {
         transform: scale(0.8);
     }
-    .carouselIndicator{
+
+    .carouselIndicator {
         border-radius: 50%;
         width: 25px;
         height: 25px;
     }
 }
-
