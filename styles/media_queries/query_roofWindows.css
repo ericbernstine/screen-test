@@ -11,29 +11,45 @@
         grid-row: 1 / 7 !important;
         grid-column: 1 / 7 !important;
         padding-left: 25px !important;
+        margin: 0 !important;
+        padding: 0 !important;
         order: 2;
     }
     .descPricing{
         grid-column: 1 / 7 !important;
         margin-top: 4px;
+        margin-bottom: 0px !important;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+        padding: 0 !important;
         display: flex;
         align-items: center;
         justify-content: left;
     }
     .descButton{
         grid-column: 1 / 7 !important;
+        margin: 0 !important;
+        padding: 0 !important;
     }
     .descInfo{
         grid-column: 1 / 7 !important;
+        margin: 0 !important;
+        padding: 0 !important;
     }
     .descWarranty{
         display: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
     }
     .descSpecs{
         display: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
     }
     .querySpecs{
         display: block !important; 
+        margin: 0 !important;
+        padding: 0 !important;
     }
     .descCarousel{
         order: 0;
@@ -63,6 +79,9 @@
 }
 
 @media screen and (max-width:450px){
+    .descPricing{
+        justify-content: center !important;
+    }
     .descPricing img{
         width: 250px !important;
         height: auto !important;
