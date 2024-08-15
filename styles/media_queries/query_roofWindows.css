@@ -60,5 +60,9 @@
         width: 95%;
         font-size: 95% !important;
     }
+    .slides {
+        height: 150px; /* Set a fixed height for the slider */
+        width: 250px;
+    }
 }
 
