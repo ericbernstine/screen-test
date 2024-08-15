@@ -206,7 +206,7 @@ img.displaySlide{
     background: rgba(0, 0, 0, 0.9);
     height: 100%;
     width: 100%;
-    z-index: 99;
+    z-index: 97;
     display: none;
 }
 .popup-desc {
@@ -225,7 +225,7 @@ img.displaySlide{
 }
 
 .slider .popup-image .popup-details{
-    z-index: 100;
+    z-index: 98;
 }
 
 .slider .popup-image span{
@@ -285,9 +285,6 @@ img.displaySlide{
         text-align: center;
         max-width: 300px;
         font-size: 90%;
-    }
-    .menuHolder{
-        display: none;
     }
 }
 

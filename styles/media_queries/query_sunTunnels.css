@@ -15,13 +15,14 @@
         gap: 1px 100px !important;
         align-items: flex-start !important;
     }
-
+    .shopBlock{
+        margin-top: 20px;
+    }
     .descriptionContent {
         width: 90% !important;
     }
     body{
         background-color: #dddddd;
-
     }
 }
 
@@ -56,12 +57,12 @@
 
 @media screen and (max-width: 580px) {
     .mainBlock {
-        gap: 1px 25px !important;
+        gap: 1px 15px !important;
     }
 
     .flexible img,
     .rigid img {
-        height: 220px !important;
+        height: 280px !important;
         width: auto !important;
     }
 
@@ -80,7 +81,7 @@
 
     .flexible img,
     .rigid img {
-        height: 200px !important;
+        height: 220px !important;
         width: auto !important;
     }
 
