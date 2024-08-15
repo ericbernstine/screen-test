@@ -142,12 +142,7 @@
     .carouselNav {
         margin-top: 4px !important;
     }
-
-    .prev {
-        font-size: 1.5rem !important;
-    }
-
-    .next {
+    .descCarousel button{
         font-size: 1.5rem !important;
     }
    .descCarousel, .slider, .slides{
