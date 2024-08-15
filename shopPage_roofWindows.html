@@ -11,7 +11,8 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
-    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <link rel="stylesheet" href="styles/media_queries/query_roofWindows.css">
+    <link rel="stylesheet" href="styles/media_queries/query_headingSection.css">
     <link rel="stylesheet" href="styles/media_queries/query_footerSection.css">
     <link rel="stylesheet" href="styles/shopPage_roofWindows.css">
     <link rel="stylesheet" href="styles/master.css">
@@ -20,38 +21,49 @@
 </head>
 
 <body>
-    <div class="headingSection">
-        <div id="innerHeading">
-            <img class='logo' src="images/logo.png" alt="">
-            <div class="menuHolder">
-                <div id="menu">
-                    <ul class="nav-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li>
-                            <div class="dropdown">
-                                <button class="dropdown-toggle" type="button" id="dropdownMenuButton"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Shop
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <li><a class="dropdown-item" href="shopPage_skylights.html">Skylights</a></li>
-                                    <li><a class="dropdown-item" href="shopPage_sunTunels.html">Sun Tunnels</a></li>
-                                    <li><a class="dropdown-item" href="shopPage_roofWindows.html">Roof Access
-                                            Windows</a></li>
-                                    <li><a class="dropdown-item" href="roofing.html">Roofing</a></li>
-                                    <li><a class="dropdown-item" href="siding.html">Siding</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a href="index.html#gallerySection">Gallery</a></li>
-                        <li><a href="index.html#testimonialSponsorSection">Reviews</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="information.html">Resources</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div> <!-- Close innerHeading -->
-    </div><!-- Close headingSection -->
+  <div class="headingSection">
+    <div id="innerHeading">
+      <img class='logo' src="images/logo.png" alt="">
+      <div class="menuHolder">
+        <div id="menu">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+
+            <li>
+              <div class="dropdown">
+                <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Shop
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="shopPage_skylights.html">Skylights</a></li>
+                  <li><a class="dropdown-item" href="shopPage_sunTunels.html">Sun Tunnels</a></li>
+                  <li><a class="dropdown-item" href="shopPage_roofWindows.html">Roof Access
+                      Windows</a></li>
+                  <li><a class="dropdown-item" href="roofing.html">Roofing</a></li>
+                  <li><a class="dropdown-item" href="siding.html">Siding</a></li>
+                </ul>
+              </div>
+            </li>
+
+
+            <li><a href="index.html#gallerySection">Gallery</a></li>
+            <li><a href="index.html#testimonialSponsorSection">Reviews</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="information.html">Resources</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="burger" id='burger'>
+      <div class="inactive line"></div>
+      <div class="inactive line"></div>
+      <div class="inactive line"></div>
+    </div>
+  </div> <!-- Close headingSection -->
+
+
+
     <div class="mainBlock">
         <div class="descriptionBlockAlpha" id="descriptionBlock1"> <!-- Added unique id -->
             <div class="descHeading">
@@ -108,6 +120,7 @@
             </div>
         </div>
     </div>
+    
     <div class="popup-image">
         <span>&times;</span>
         <img src="" alt="" srcset="">
@@ -287,6 +300,8 @@
                     </div>
                   </div>
 
+
+    <script src="script/query_script/query_headingSection.js"></script>
     <script src="script/shopPage_roofWindow_carousel.js"></script>
 </body>
 

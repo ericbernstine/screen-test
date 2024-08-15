@@ -1,0 +1,64 @@
+@media screen and (max-width: 1050px){
+    .mainBlock{
+        width: 95% !important;
+        height: 88% !important;
+    }
+    .descriptionBlockAlpha{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .innerdescriptionBlock{
+        grid-row: 1 / 7 !important;
+        grid-column: 1 / 7 !important;
+        padding-left: 25px !important;
+        order: 2;
+    }
+    .descPricing{
+        grid-column: 1 / 7 !important;
+    }
+    .descButton{
+        grid-column: 1 / 7 !important;
+    }
+    .descInfo{
+        grid-column: 1 / 7 !important;
+    }
+    .descWarranty{
+        grid-column: 1 / 7 !important;
+    }
+    .descSpecs{
+        grid-column: 1 / 7 !important;
+    }
+    .descCarousel{
+        order: 0;
+    }
+    .carouselNav{
+        order: 1;
+        margin-bottom: 5px;
+    }
+    .descriptionBlockAlpha h4{
+        text-align: center;
+    }
+    .descriptionBlockAlpha .footnote{
+        text-align: center;
+    }
+    .footnote{
+        margin-top: 4px !important; 
+    }
+}
+
+@media screen and (max-width:450px){
+    .descPricing img{
+        width: 250px !important;
+        height: auto !important;
+    }
+    .descInfo{
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .descInfo p{
+        width: 95%;
+        font-size: 95% !important;
+    }
+}
+

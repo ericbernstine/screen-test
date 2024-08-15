@@ -69,7 +69,7 @@
   left: 0;
 }
 .next{
-    right: 0;
+    right: 10px;
 }
 
 .slider{
@@ -166,8 +166,8 @@ img.displaySlide{
 
 .popup-image span{
     position: absolute;
-    top: 0; 
-    right: 15px;
+    top: 4%; 
+    left: 15px;
     font-size: 40px;
     font-weight: bolder;
     color: #fff;
@@ -225,9 +225,6 @@ img.displaySlide{
         text-align: center;
         max-width: 300px;
         font-size: 90%;
-    }
-    .menuHolder{
-        display: none;
     }
 }
 
