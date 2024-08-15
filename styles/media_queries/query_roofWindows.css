@@ -102,5 +102,10 @@
     .descButton button{
         transform: scale(0.8);
     }
+    .carouselIndicator{
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+    }
 }
 
