@@ -25,10 +25,6 @@
     grid-template-columns: repeat(7, auto);
     grid-template-rows: repeat(7, auto);
 }
-.descriptionBlockAlpha img{
-    width: 400px;
-    height: auto;
-}
 .descHeading{
     grid-row: 1 / 1;
     grid-column: 1 / 1;
@@ -243,6 +239,16 @@ img.displaySlide{
     grid-column: 2 / 7;
     margin-bottom: 15px;
 }
+.descPricing img{
+    width: 400px;
+    height: auto;
+}
+.descPricing img:nth-child(1){
+    display: block;
+}
+.descPricing img:nth-child(2){
+    display: none;
+}
 .descButton{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -274,4 +280,12 @@ img.displaySlide{
     grid-column: 2 / 5;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.descWarranty a, .descSpecs a, .querySpecs a{
+    text-decoration: none;
+}
+.querySpecs{
+    grid-row: 5 / 5;
+    grid-column: 1 / 5;
+    display: none ;
 }

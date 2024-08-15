@@ -1,6 +1,6 @@
 @media screen and (max-width: 1050px){
     .mainBlock{
-        width: 95% !important;
+        width: 98% !important;
         height: 88% !important;
     }
     .descriptionBlockAlpha{
@@ -15,6 +15,10 @@
     }
     .descPricing{
         grid-column: 1 / 7 !important;
+        margin-top: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
     }
     .descButton{
         grid-column: 1 / 7 !important;
@@ -23,10 +27,13 @@
         grid-column: 1 / 7 !important;
     }
     .descWarranty{
-        grid-column: 1 / 7 !important;
+        display: none !important;
     }
     .descSpecs{
-        grid-column: 1 / 7 !important;
+        display: none !important;
+    }
+    .querySpecs{
+        display: block !important; 
     }
     .descCarousel{
         order: 0;
@@ -43,6 +50,15 @@
     }
     .footnote{
         margin-top: 4px !important; 
+    }
+    .web_pricing{
+        display: none;
+    }
+    .descPricing img:nth-child(1){
+        display: none !important;
+    }
+    .descPricing img:nth-child(2){
+        display: block !important;
     }
 }
 
@@ -63,6 +79,9 @@
     .slides {
         height: 150px !important; /* Set a fixed height for the slider */
         width: 250px !important;
+    }
+    .descButton button{
+        transform: scale(0.8);
     }
 }
 
