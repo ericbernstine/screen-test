@@ -17,9 +17,6 @@
     .sponsorSectionSecondary{
         display: none !important;
     }
-    .top_watermark{
-        display: none !important;
-    }
     .sponsorContent {
         height: 150px;
         width: 150px;
@@ -63,6 +60,8 @@
         width: 100px !important;
         height: auto !important;
     }
+    .top_watermark{
+        display: none !important;
 }
 
 @media screen and (max-width: 580px){
