@@ -1,76 +1,92 @@
 /* CUSTOMER REVIEWS */
-@media screen and (max-width:700px){
-    .testimonialSection{
+@media screen and (max-width:700px) {
+    .testimonialSection {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .elfsight-app-b2c97f88-710c-4d05-b94e-a5c5e601f585{
+
+    .elfsight-app-b2c97f88-710c-4d05-b94e-a5c5e601f585 {
         width: 95%;
     }
 }
 
-@media screen and (max-width: 1000px){
-    .sponsorSection{
+@media screen and (max-width: 1000px) {
+    .sponsorSection {
         display: none !important;
     }
-    .sponsorSectionSecondary{
+
+    .sponsorSectionSecondary {
         display: none !important;
     }
+
     .sponsorContent {
         height: 150px;
         width: 150px;
         font-size: 88%;
     }
-    .sponsorImages{
+
+    .sponsorImages {
         display: none !important;
     }
-    .sponsorText{
+
+    .sponsorText {
         width: 92%;
         padding: 5px;
     }
-    .sponsorQuery{
+
+    .sponsorQuery {
         display: block !important;
         width: 100%;
     }
-    .sponsorQuery img{
+
+    .sponsorQuery img {
         margin-right: 15px;
     }
-    .top{
+
+    .top {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
-    .bottom{
+
+    .bottom {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
-    .topImages{
+
+    .topImages {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
-    .bottomImages{
+
+    .bottomImages {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
-    .topImages img, .bottomImages img{
+
+    .topImages img,
+    .bottomImages img {
         width: 100px !important;
         height: auto !important;
     }
-    .top_watermark{
+
+    .top_watermark {
         display: none !important;
+    }
 }
 
-@media screen and (max-width: 580px){
-    .sponsorContent{
+@media screen and (max-width: 580px) {
+    .sponsorContent {
         height: 100px;
         width: 100px;
         font-size: 65%;
     }
-    .sponsorText{
+
+    .sponsorText {
         height: 100px !important;
         width: 100px !important;
         border: 3px solid rgba(56, 139, 217, 0.7) !important;
@@ -78,18 +94,22 @@
         border-radius: 40% !important;
         filter: none !important;
     }
-    .topImages img, .bottomImages img{
+
+    .topImages img,
+    .bottomImages img {
         width: 80px !important;
         height: auto !important;
     }
-    .bottomImages img{
+
+    .bottomImages img {
         margin-left: 10px;
     }
-    .sponsorSection{
+
+    .sponsorSection {
         padding: none;
     }
 
-    .watermark{
+    .watermark {
         text-align: center;
     }
 }

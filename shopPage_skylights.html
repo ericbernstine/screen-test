@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="styles/master.css">
     <link rel="stylesheet" href="styles/media_queries/query_headingSection.css">
     <link rel="stylesheet" href="styles/media_queries/query_footerSection.css">
+    <link rel="stylesheet" href="styles/media_queries/query_skylights.css">
     <title>Skylight Pros by Blue Bell</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
@@ -55,9 +56,15 @@
                 </div>
             </div>
         </div> <!-- Close innerHeading -->
+        <div class="burger" id='burger'>
+            <div class="inactive line"></div>
+            <div class="inactive line"></div>
+            <div class="inactive line"></div>
+          </div>
     </div> <!-- Close headingSection -->
 
     <div class="mainBlock">
+        <div class="mainBlock_wrap">
         <div class="shopBlock">
             <h4>Manual "Fresh Air Skylights</h4>
             <div class="manual">
@@ -68,6 +75,7 @@
                 </div>
             </div>
             <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">More Details...</button>
+            <a href="tel:215-200-8756" class="tel_descButton"><button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">215 200 8756</button></a>
         </div>
 
         <div class="shopBlock">
@@ -79,7 +87,8 @@
                         powered by your own home's electricity.</p>
                 </div>
             </div>
-            <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm electric">More Details...</button>
+            <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">More Details...</button>
+            <a href="tel:215-200-8756" class="tel_descButton"><button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">215 200 8756</button></a>
         </div>
 
         <div class="shopBlock">
@@ -91,7 +100,8 @@
                         skylight to open at the press of a button.</p>
                 </div>
             </div>
-            <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm solar">More Details...</button>
+            <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">More Details...</button>
+            <a href="tel:215-200-8756" class="tel_descButton"><button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">215 200 8756</button></a>
         </div>
 
         <div class="shopBlock">
@@ -103,7 +113,8 @@
                         ideal for spaces like sunrooms or porches.</p>
                 </div>
             </div>
-            <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm fixed">More Details...</button>
+            <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">More Details...</button>
+            <a href="tel:215-200-8756" class="tel_descButton"><button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">215 200 8756</button></a>
         </div>
 
         <div class="shopBlock">
@@ -115,7 +126,8 @@
                         Up to 10ft in length!</p>
                 </div>
             </div>
-            <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm skyMax">More Details...</button>
+            <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">More Details...</button>
+            <a href="tel:215-200-8756" class="tel_descButton"><button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">215 200 8756</button></a>
         </div>
 
         <div class="shopBlock">
@@ -127,8 +139,10 @@
                         The curved glass allows water to disperse evenly without issue.</p>
                 </div>
             </div>
-            <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm flatRoof">More Details...</button>
+            <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">More Details...</button>
+            <a href="tel:215-200-8756" class="tel_descButton"><button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">215 200 8756</button></a>
         </div>
+    </div>
     </div> <!-- Close mainBlock -->
 
     <!-- DESCRIPTION SECTION -->
@@ -661,7 +675,7 @@
         </div>
       </div>
     
-
+    <script src="script/query_script/query_headingSection.js"></script>
     <script src="script/shopPage_carousel.js"></script>
 </body>
 
