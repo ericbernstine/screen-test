@@ -257,6 +257,7 @@ img.displaySlide{
 }
 .descButton button{
     background: #0481c3;
+    margin-bottom: 10px;
 }
 .descButton button:hover{
     background: #0369a0;
