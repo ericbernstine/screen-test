@@ -82,6 +82,9 @@
         width: 80px !important;
         height: auto !important;
     }
+    .bottomImages img{
+        margin-left: 10px;
+    }
     .sponsorSection{
         padding: none;
     }
