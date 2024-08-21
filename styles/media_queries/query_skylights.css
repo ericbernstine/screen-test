@@ -21,6 +21,10 @@
 .mainBlock_wrap::-webkit-scrollbar, .shopBlock::-webkit-scrollbar {
   background-color: #0a0a0a !important; /* Force black background */
 }
+html {
+  scrollbar-color: #0a0a0a #eeeeee; /* Thumb color and track color */
+  scrollbar-width: thin; /* Makes the scrollbar thinner */
+}
 
 @media screen and (max-width: 1500px){
   .shopBlock img{
