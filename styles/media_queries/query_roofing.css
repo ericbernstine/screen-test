@@ -50,6 +50,7 @@
         flex-direction: column !important;
         height: 88% !important;
         width: 98% !important;
+        padding-bottom: 80px !important;
     }
     .imgBlock2{
         margin-left: 8px !important;
