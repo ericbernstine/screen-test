@@ -161,9 +161,8 @@
     width: 100%;
     margin: auto;
     overflow: hidden;
-}
-.slider button{
-    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
 }
 .slides {
     display: flex; /* Ensure that images are in a row */
@@ -171,7 +170,6 @@
     align-items: center;
     height: 300px; /* Set a fixed height for the slider */
     width: 400px;
-    overflow: hidden;
 }
 
 .slides img {
@@ -179,7 +177,11 @@
     width: auto; /* Maintain aspect ratio */
     max-width: 400px;
     display: none;
-    border-radius: 5px !important;
+    object-fit: contain; /* Ensure images fit within the container */
+    border-radius: 5px;
+}
+.slider button{
+    font-size: 2.5rem;
 }
 .slides img:hover{
     cursor: pointer;

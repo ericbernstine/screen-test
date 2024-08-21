@@ -104,3 +104,14 @@
     margin: 0 !important;
   }
 }
+
+@media screen and (max-width: 600px){
+  .descPricing img {
+    width: 290px !important;
+    height: auto !important;
+}
+  .slides img{
+    width: 250px !important;
+    height: auto !important;
+}
+}
