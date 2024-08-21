@@ -50,7 +50,7 @@
         flex-direction: column !important;
         height: 88% !important;
         width: 98% !important;
-        padding-bottom: 80px !important;
+        padding-bottom: 180px !important;
     }
     .imgBlock2{
         margin-left: 8px !important;
@@ -74,6 +74,9 @@
     }
     .descBlock2_details p{
         font-size: 75% !important;
+    }
+    .img_container{
+        display: none;
     }
 
 }
