@@ -60,7 +60,8 @@
         align-self: center;
     }
     .descBlock1 a, .descBlock2 a{
-        margin-bottom: 5px !important;
+        margin-top: 0px !important;
+        margin-bottom: 1px !important;
         transform: scale(0.8);
     }
     .descBlock1 h4, .descBlock2 h4{
