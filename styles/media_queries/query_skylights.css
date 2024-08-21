@@ -18,12 +18,11 @@
   background: #4e4e4e; /* Darker color when hovered */
 }
 
-.mainBlock_wrap::-webkit-scrollbar, .shopBlock::-webkit-scrollbar {
-  background-color: #0a0a0a !important; /* Force black background */
+.simplebar-scrollbar:before {
+  background-color: #0a0a0a;
 }
-html {
-  scrollbar-color: #0a0a0a #eeeeee; /* Thumb color and track color */
-  scrollbar-width: thin; /* Makes the scrollbar thinner */
+.simplebar-track {
+  background-color: #eeeeee;
 }
 
 @media screen and (max-width: 1500px){
@@ -47,4 +46,7 @@ html {
   .descriptionBlock{
     display: none;
   }
+  .shopBlock .flatRoof{
+    margin-right: 50px;
+}
 }

@@ -18,6 +18,11 @@
     <link rel="stylesheet" href="styles/media_queries/query_headingSection.css">
     <link rel="stylesheet" href="styles/media_queries/query_footerSection.css">
     <link rel="stylesheet" href="styles/media_queries/query_skylights.css">
+
+    <!-- scrollbar  -->
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css">
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+
     <title>Skylight Pros by Blue Bell</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
@@ -60,89 +65,99 @@
             <div class="inactive line"></div>
             <div class="inactive line"></div>
             <div class="inactive line"></div>
-          </div>
+        </div>
     </div> <!-- Close headingSection -->
 
     <div class="mainBlock">
-        <div class="mainBlock_wrap">
-        <div class="shopBlock">
-            <h4>Manual "Fresh Air Skylights</h4>
-            <div class="manual">
-                <img src="images/shop/skylights/manual_skylights/manual_freshAir_skylight.png" alt="" srcset="">
-                <div class="description">
-                    <p>Ideal for a skylight within reach. This "Fresh Air" skylight allows you to easily open and close
-                        with the turn of a handle.</p>
+        <div class="mainBlock_wrap" data-simplebar>
+            <div class="shopBlock">
+                <h4>Manual "Fresh Air Skylights</h4>
+                <div class="manual">
+                    <img src="images/shop/skylights/manual_skylights/manual_freshAir_skylight.png" alt="" srcset="">
+                    <div class="description">
+                        <p>Ideal for a skylight within reach. This "Fresh Air" skylight allows you to easily open and
+                            close
+                            with the turn of a handle.</p>
+                    </div>
                 </div>
+                <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">More Details...</button>
+                <a href="tel:215-200-8756" class="tel_descButton"><button id='shopBlockBtn'
+                        class="btn btn-outline-primary btn-sm manual">215 200 8756</button></a>
             </div>
-            <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">More Details...</button>
-            <a href="tel:215-200-8756" class="tel_descButton"><button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">215 200 8756</button></a>
-        </div>
 
-        <div class="shopBlock">
-            <h4>Electric "Fresh Air Skylights</h4>
-            <div class="electric">
-                <img src="images/shop/skylights/electric_skylights/electric_freshAir_skylight.png" alt="" srcset="">
-                <div class="description">
-                    <p>Easily open and close this electric skylight with a concealed operator,
-                        powered by your own home's electricity.</p>
+            <div class="shopBlock">
+                <h4>Electric "Fresh Air Skylights</h4>
+                <div class="electric">
+                    <img src="images/shop/skylights/electric_skylights/electric_freshAir_skylight.png" alt="" srcset="">
+                    <div class="description">
+                        <p>Easily open and close this electric skylight with a concealed operator,
+                            powered by your own home's electricity.</p>
+                    </div>
                 </div>
+                <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">More Details...</button>
+                <a href="tel:215-200-8756" class="tel_descButton"><button id='shopBlockBtn'
+                        class="btn btn-outline-primary btn-sm manual">215 200 8756</button></a>
             </div>
-            <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">More Details...</button>
-            <a href="tel:215-200-8756" class="tel_descButton"><button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">215 200 8756</button></a>
-        </div>
 
-        <div class="shopBlock">
-            <h4>Solar "Fresh Air Skylights</h4>
-            <div class="solar">
-                <img src="images/shop/skylights/solar_skylights/solar_freshAir_sklight.png" alt="" srcset="">
-                <div class="description">
-                    <p>Open and close this skylight with the power of the sun. The solar panel attached allows for this
-                        skylight to open at the press of a button.</p>
+            <div class="shopBlock">
+                <h4>Solar "Fresh Air Skylights</h4>
+                <div class="solar">
+                    <img src="images/shop/skylights/solar_skylights/solar_freshAir_sklight.png" alt="" srcset="">
+                    <div class="description">
+                        <p>Open and close this skylight with the power of the sun. The solar panel attached allows for
+                            this
+                            skylight to open at the press of a button.</p>
+                    </div>
                 </div>
+                <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">More Details...</button>
+                <a href="tel:215-200-8756" class="tel_descButton"><button id='shopBlockBtn'
+                        class="btn btn-outline-primary btn-sm manual">215 200 8756</button></a>
             </div>
-            <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">More Details...</button>
-            <a href="tel:215-200-8756" class="tel_descButton"><button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">215 200 8756</button></a>
-        </div>
 
-        <div class="shopBlock">
-            <h4>Fixed Skylights</h4>
-            <div class="fixed">
-                <img src="images/shop/skylights/fixed_skylights/fixedSkylight.png" alt="" srcset="">
-                <div class="description">
-                    <p>Fixed Skylights are designed for the sole purpose of bringing in fresh air. These skylights are
-                        ideal for spaces like sunrooms or porches.</p>
+            <div class="shopBlock">
+                <h4>Fixed Skylights</h4>
+                <div class="fixed">
+                    <img src="images/shop/skylights/fixed_skylights/fixedSkylight.png" alt="" srcset="">
+                    <div class="description">
+                        <p>Fixed Skylights are designed for the sole purpose of bringing in fresh air. These skylights
+                            are
+                            ideal for spaces like sunrooms or porches.</p>
+                    </div>
                 </div>
+                <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">More Details...</button>
+                <a href="tel:215-200-8756" class="tel_descButton"><button id='shopBlockBtn'
+                        class="btn btn-outline-primary btn-sm manual">215 200 8756</button></a>
             </div>
-            <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">More Details...</button>
-            <a href="tel:215-200-8756" class="tel_descButton"><button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">215 200 8756</button></a>
-        </div>
 
-        <div class="shopBlock">
-            <h4>SkyMax Skylights</h4>
-            <div class="skyMax">
-                <img src="images/shop/skylights/skymax_skylights/skyMax.png" alt="" srcset="">
-                <div class="description">
-                    <p>SkyMax skylights offer maximum sunlight with flexible options on the size of skylight you want.
-                        Up to 10ft in length!</p>
+            <div class="shopBlock">
+                <h4>SkyMax Skylights</h4>
+                <div class="skyMax">
+                    <img src="images/shop/skylights/skymax_skylights/skyMax.png" alt="" srcset="">
+                    <div class="description">
+                        <p>SkyMax skylights offer maximum sunlight with flexible options on the size of skylight you
+                            want.
+                            Up to 10ft in length!</p>
+                    </div>
                 </div>
+                <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">More Details...</button>
+                <a href="tel:215-200-8756" class="tel_descButton"><button id='shopBlockBtn'
+                        class="btn btn-outline-primary btn-sm manual">215 200 8756</button></a>
             </div>
-            <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">More Details...</button>
-            <a href="tel:215-200-8756" class="tel_descButton"><button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">215 200 8756</button></a>
-        </div>
 
-        <div class="shopBlock">
-            <h4>Flat Roof Skylights</h4>
-            <div class="flatRoof">
-                <img src="images/shop/skylights/flatroof_skylights/flatRoofSkylight.png" alt="" srcset="">
-                <div class="description">
-                    <p>Where a slanted roof is not an option. Flat roof skylights fit perfect.
-                        The curved glass allows water to disperse evenly without issue.</p>
+            <div class="shopBlock">
+                <h4>Flat Roof Skylights</h4>
+                <div class="flatRoof">
+                    <img src="images/shop/skylights/flatroof_skylights/flatRoofSkylight.png" alt="" srcset="">
+                    <div class="description">
+                        <p>Where a slanted roof is not an option. Flat roof skylights fit perfect.
+                            The curved glass allows water to disperse evenly without issue.</p>
+                    </div>
                 </div>
+                <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">More Details...</button>
+                <a href="tel:215-200-8756" class="tel_descButton"><button id='shopBlockBtn'
+                        class="btn btn-outline-primary btn-sm manual">215 200 8756</button></a>
             </div>
-            <button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">More Details...</button>
-            <a href="tel:215-200-8756" class="tel_descButton"><button id='shopBlockBtn' class="btn btn-outline-primary btn-sm manual">215 200 8756</button></a>
         </div>
-    </div>
     </div> <!-- Close mainBlock -->
 
     <!-- DESCRIPTION SECTION -->
@@ -512,142 +527,142 @@
         <img src="images/Sponsors/enterBank.png" alt="">
         <img src="images/Sponsors/velux.png" alt="">
         <div class="smallLogo"><img src="images/smallLogo.png" alt=""></div>
-      </div>
-      <div class="sponsorSectionSecondary">
-  
+    </div>
+    <div class="sponsorSectionSecondary">
+
         <div class='sponsorBlock'>
-          <div class='homeAdvisor'>
-            <div class="sponsorText">
-              <div class="sponsorContent">
-                <a href="https://www.homeadvisor.com/cost/doors-and-windows/install-a-skylight/">
-                  <div class="irsClick">CLICK HERE</div>
-                  Compare Skylight Installation Quotes
-                </a>
-              </div>
+            <div class='homeAdvisor'>
+                <div class="sponsorText">
+                    <div class="sponsorContent">
+                        <a href="https://www.homeadvisor.com/cost/doors-and-windows/install-a-skylight/">
+                            <div class="irsClick">CLICK HERE</div>
+                            Compare Skylight Installation Quotes
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-  
+
         <div class='sponsorBlock'>
-          <div class='enterBank'>
-            <div class="sponsorText">
-              <div class="sponsorContent">
-                <a
-                  href="https://application.enerbank.com/apply/loanproduct?sponsorPhoneNumber=8666443660&contractorNumber=1045&loanCode=DVL8724&estimatedCost=&projectTypeId=">
-                  <div class="irsClick">CLICK HERE</div>
-                  Apply for a Home Improvement Loan
-                </a>
-              </div>
+            <div class='enterBank'>
+                <div class="sponsorText">
+                    <div class="sponsorContent">
+                        <a
+                            href="https://application.enerbank.com/apply/loanproduct?sponsorPhoneNumber=8666443660&contractorNumber=1045&loanCode=DVL8724&estimatedCost=&projectTypeId=">
+                            <div class="irsClick">CLICK HERE</div>
+                            Apply for a Home Improvement Loan
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-  
-  
+
+
         <div class='sponsorBlock'>
-          <div class='velux'>
-            <div class="sponsorText">
-              <div class="sponsorContent">
-                <a href="https://www.veluxusa.com/">
-                  <div class="irsClick">CLICK HERE</div>
-                  Additional Info about our Manufacturer
-                </a>
-              </div>
+            <div class='velux'>
+                <div class="sponsorText">
+                    <div class="sponsorContent">
+                        <a href="https://www.veluxusa.com/">
+                            <div class="irsClick">CLICK HERE</div>
+                            Additional Info about our Manufacturer
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-  
+
         <div class='sponsorBlock'>
-          <div class='blueBell'>
-            <div class="sponsorText">
-              <div class="sponsorContent">
-                <a href="#">
-                  <div class="irsClick">CLICK HERE</div>
-                  Enter to win a Free Skylight
-                </a>
-              </div>
+            <div class='blueBell'>
+                <div class="sponsorText">
+                    <div class="sponsorContent">
+                        <a href="#">
+                            <div class="irsClick">CLICK HERE</div>
+                            Enter to win a Free Skylight
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
         <div class="watermark">Skylight Pros By Blue Bell
-          <script>document.write(new Date().getFullYear())</script>© Web Design by Eric Bernstine
+            <script>document.write(new Date().getFullYear())</script>© Web Design by Eric Bernstine
         </div>
-      </div>
-  
-      <!-- QUERY FOOTER -->
-      <div class="sponsorQuery">
+    </div>
+
+    <!-- QUERY FOOTER -->
+    <div class="sponsorQuery">
         <div class="topImages">
-          <div class="homeadvisor"><img src="images/Sponsors/homeAdvisor.png" alt=""></div>
-          <div class="enterbank"><img src="images/Sponsors/enterBank.png" alt=""></div>
+            <div class="homeadvisor"><img src="images/Sponsors/homeAdvisor.png" alt=""></div>
+            <div class="enterbank"><img src="images/Sponsors/enterBank.png" alt=""></div>
         </div>
         <div class="top">
-  
-          <div class='sponsorBlock'>
-            <div class='homeAdvisor'>
-              <div class="sponsorText">
-                <div class="sponsorContent">
-                  <a href="https://www.homeadvisor.com/cost/doors-and-windows/install-a-skylight/">
-                    <div class="irsClick">CLICK HERE</div>
-                    Compare Skylight Installation Quotes
-                  </a>
+
+            <div class='sponsorBlock'>
+                <div class='homeAdvisor'>
+                    <div class="sponsorText">
+                        <div class="sponsorContent">
+                            <a href="https://www.homeadvisor.com/cost/doors-and-windows/install-a-skylight/">
+                                <div class="irsClick">CLICK HERE</div>
+                                Compare Skylight Installation Quotes
+                            </a>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-  
-          <div class='sponsorBlock'>
-            <div class='enterBank'>
-              <div class="sponsorText">
-                <div class="sponsorContent">
-                  <a
-                    href="https://application.enerbank.com/apply/loanproduct?sponsorPhoneNumber=8666443660&contractorNumber=1045&loanCode=DVL8724&estimatedCost=&projectTypeId=">
-                    <div class="irsClick">CLICK HERE</div>
-                    Apply for a Home Improvement Loan
-                  </a>
+
+            <div class='sponsorBlock'>
+                <div class='enterBank'>
+                    <div class="sponsorText">
+                        <div class="sponsorContent">
+                            <a
+                                href="https://application.enerbank.com/apply/loanproduct?sponsorPhoneNumber=8666443660&contractorNumber=1045&loanCode=DVL8724&estimatedCost=&projectTypeId=">
+                                <div class="irsClick">CLICK HERE</div>
+                                Apply for a Home Improvement Loan
+                            </a>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-  
+
         <div class="bottomImages">
-          <div class="bottom_velux"><img src="images/Sponsors/velux.png" alt=""></div>
-          <div class="bottom_smallLogo"><img src="images/smallLogo.png" alt=""></div>
+            <div class="bottom_velux"><img src="images/Sponsors/velux.png" alt=""></div>
+            <div class="bottom_smallLogo"><img src="images/smallLogo.png" alt=""></div>
         </div>
-  
+
         <div class="bottom">
-          <div class='sponsorBlock'>
-            <div class='velux'>
-              <div class="sponsorText">
-                <div class="sponsorContent">
-                  <a href="https://www.veluxusa.com/">
-                    <div class="irsClick">CLICK HERE</div>
-                    Additional Info about our Manufacturer
-                  </a>
+            <div class='sponsorBlock'>
+                <div class='velux'>
+                    <div class="sponsorText">
+                        <div class="sponsorContent">
+                            <a href="https://www.veluxusa.com/">
+                                <div class="irsClick">CLICK HERE</div>
+                                Additional Info about our Manufacturer
+                            </a>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-  
-          <div class='sponsorBlock'>
-            <div class='blueBell'>
-              <div class="sponsorText">
-                <div class="sponsorContent">
-                  <a href="#">
-                    <div class="irsClick">CLICK HERE</div>
-                    Enter to win a Free Skylight
-                  </a>
+
+            <div class='sponsorBlock'>
+                <div class='blueBell'>
+                    <div class="sponsorText">
+                        <div class="sponsorContent">
+                            <a href="#">
+                                <div class="irsClick">CLICK HERE</div>
+                                Enter to win a Free Skylight
+                            </a>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-  
+
         <div class="watermark">Skylight Pros By Blue Bell
-          <script>document.write(new Date().getFullYear())</script>© Web Design by Eric Bernstine
+            <script>document.write(new Date().getFullYear())</script>© Web Design by Eric Bernstine
         </div>
-      </div>
-    
-      <script src="script/shopPage_skylights_scroll.js"></script>
+    </div>
+
+    <script src="script/shopPage_skylights_scroll.js"></script>
     <script src="script/query_script/query_headingSection.js"></script>
     <script src="script/shopPage_carousel.js"></script>
 </body>
