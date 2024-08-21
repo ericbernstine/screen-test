@@ -49,6 +49,7 @@
         display: flex !important;
         flex-direction: column !important;
         height: 88% !important;
+        width: 98% !important;
     }
     .imgBlock2{
         margin-left: 8px !important;
@@ -58,9 +59,17 @@
     }
     .descBlock1 a, .descBlock2 a{
         margin-bottom: 5px !important;
+        transform: scale(0.8);
     }
     .descBlock1 h4, .descBlock2 h4{
-        font-size: 200% !important;
+        font-size: 140% !important;
+        text-align: center;
+    }
+    .descBlock1_details, .descBlock2_details{
+        width: 100% !important;
+    }
+    .descBlock1_details p, .descBlock2_details p{
+        font-size: 85%;
     }
 }
 
