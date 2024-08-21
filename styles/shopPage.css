@@ -31,7 +31,7 @@
 .shopBlock {
     flex: 0 0 70%; /* Make each block take up 90% of the mainBlock width */
     height: 80%; /* Adjust height relative to the mainBlock */
-    margin: 0 15%; /* Add equal margin on left and right for padding */
+    margin: 15px 15%; /* Add equal margin on left and right for padding */
     border-radius: 5px;
     scroll-snap-align: center; /* Ensure each block snaps to the center */
 }
