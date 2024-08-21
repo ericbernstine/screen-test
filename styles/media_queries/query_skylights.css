@@ -76,6 +76,8 @@
     padding-left: 15px !important;
     margin-bottom: 55px;
     order: 2;
+    display: flex !important;
+    flex-direction: column;
   }
 
   .carouselIndicator {
