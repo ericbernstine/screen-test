@@ -18,6 +18,10 @@
   background: #4e4e4e; /* Darker color when hovered */
 }
 
+.mainBlock_wrap::-webkit-scrollbar, .shopBlock::-webkit-scrollbar {
+  background-color: #0a0a0a !important; /* Force black background */
+}
+
 @media screen and (max-width: 1500px){
   .shopBlock img{
       height: 350px;
