@@ -68,9 +68,13 @@
     .descBlock1_details, .descBlock2_details{
         width: 100% !important;
     }
-    .descBlock1_details p, .descBlock2_details p{
-        font-size: 85%;
+    .descBlock1_details p{
+        font-size: 75% !important;
     }
+    .descBlock2_details p{
+        font-size: 75% !important;
+    }
+
 }
 
 
