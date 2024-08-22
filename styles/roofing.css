@@ -13,7 +13,6 @@
 
 .inner {
     flex: 0 0 40%;
-    margin: 10;
 }
 
 .imgBlock {
@@ -116,4 +115,8 @@
 
 .sponsorQuery{
     background-color: #eee !important;
+}
+
+body{
+    background-color: #eee;
 }
