@@ -120,3 +120,6 @@
 body{
     background-color: #eee;
 }
+.descBlock1 button, .descBlock2 button{
+    background-color: rgb(5, 128, 194);
+}
