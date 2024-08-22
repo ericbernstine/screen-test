@@ -88,7 +88,7 @@
 
 
 .imageSection{
-    height: 100vh;
+    height: 100%;
     background-color: #eee;
 }
 
@@ -103,13 +103,6 @@
     align-items: center;
     flex-wrap: wrap;
 }
-.inner_imageSection2 {
-    margin-top: 15px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
 .imageSection h4{
     padding-top: 15px;
     text-align: center;
@@ -118,11 +111,10 @@
 .imgSection_imgContainer{
     margin-top: 20px;
     text-align: center;
-    width: 30%;
-    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 0 0 50%;
 }
 
 .imgwrap {
@@ -153,15 +145,6 @@
     border-radius: 5px;
 }
 
-.inner_imageSection2 .imgBorder{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 350px;
-    height: 310px;
-    background-color:rgba(199, 199, 199, 0.5);
-    border-radius: 5px;
-}
 .disclaimer_wrap{
     display: flex;
     align-items: center;
@@ -174,6 +157,7 @@
     text-align: center;
     width: 40%;
     margin-bottom: 15px;
+    margin-top: 10px;
 }
 .sponsorImages{
     background-color: #eee !important;
@@ -271,5 +255,9 @@
 }
 
 .sponsorSectionSecondary{
+    background-color: #eee;
+}
+
+body{
     background-color: #eee;
 }
