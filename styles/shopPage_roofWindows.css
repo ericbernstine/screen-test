@@ -256,11 +256,14 @@ img.displaySlide{
     grid-column: 2 / 7;
 }
 .descButton button{
-    background: #0481c3;
-    margin-bottom: 10px;
+    background: rgb(5, 128, 194);
 }
-.descButton button:hover{
+.descButton button:hover, .descButton a:hover{
     background: #0369a0;
+}
+.descButton a{
+    color: rgb(5, 128, 194);
+    border-color: rgb(5, 128, 194);
 }
 .descInfo{
     grid-row: 4 / 4;

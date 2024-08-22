@@ -123,3 +123,13 @@ body{
 .descBlock1 button, .descBlock2 button{
     background-color: rgb(5, 128, 194);
 }
+.descBlock1 a, .descBlock2 a{
+    color: rgb(5, 128, 194);
+    border-color: rgb(5, 128, 194);
+}
+.descBlock1 button:hover, 
+.descBlock1 a:hover,
+.descBlock2 button:hover, 
+.descBlock2 a:hover{
+    background: #0369a0;
+}
