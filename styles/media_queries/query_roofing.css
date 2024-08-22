@@ -11,5 +11,12 @@
     .imgBlock h4{
         font-size: 200% !important;
     }
+    .slider_button{
+        font-size: 140%;
+        padding: .8rem;
+    }
+    .slider_line{
+        padding: .25rem;
+    }
 
 }
