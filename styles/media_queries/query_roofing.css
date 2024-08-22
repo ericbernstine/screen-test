@@ -10,6 +10,9 @@
         width: 300px !important;
         height: auto !important;
     }
+    .descBlock1_details, .descBlock2_details{
+       padding: 0 !important;
+    }
 }
 
 @media screen and (max-width:800px){
@@ -35,8 +38,8 @@
 }
 @media screen and (max-width:700px){
     .imgBlock1, .imgBlock2{
-        width: 220px !important;
-        height: 80% !important;
+        width: 210px !important;
+        height: 30% !important;
     }
     .imgBlock1 img, .imgBlock2 img {
         width: 200px !important;
@@ -48,7 +51,6 @@
     .mainBlock{
         display: flex !important;
         flex-direction: column !important;
-        height: 94% !important;
         width: 98% !important;
         padding-bottom: 10px !important;
         box-sizing: border-box;
@@ -60,9 +62,8 @@
         align-self: center;
     }
     .descBlock1 a, .descBlock2 a{
-        margin-top: 0px !important;
-        margin-bottom: 1px !important;
-        transform: scale(0.8);
+        margin-top: 4px !important;
+        margin-bottom: 4px !important;
     }
     .descBlock1 h4, .descBlock2 h4{
         font-size: 140% !important;
@@ -73,12 +74,13 @@
     }
     .descBlock1_details p{
         font-size: 75% !important;
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
     }
     .descBlock2_details p{
         font-size: 75% !important;
-    }
-    .burger{
-        top: 2% !important;
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
     }
 }
 
