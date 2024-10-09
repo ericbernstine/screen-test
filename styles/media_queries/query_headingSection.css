@@ -61,9 +61,13 @@
         font-weight: 800;
         font-size: 70px;
     }
-    .logo{
-        width: 140px !important;
+    .logo img{
+        width: 200px !important;
         height: auto !important;
+        position: absolute;
+        top: 2%;
+        left: 50%;
+        transform: translate(-50%, -2%);
     }
 }
 

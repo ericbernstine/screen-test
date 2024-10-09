@@ -54,6 +54,9 @@
 .logo {
     margin-top: 20px;
     margin-left: 40px;
+}
+
+.logo img{
     width: 13.75rem;
     height: 9.375rem;
 }
